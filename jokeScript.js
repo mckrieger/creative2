@@ -21,7 +21,6 @@ $(document).ready(function() {
               }
               if (json.results.length == 0){
                 results += "<p  class=\"searchResults\">No Search Results Found</p>"
-
               }
               results += "</div>";
 
