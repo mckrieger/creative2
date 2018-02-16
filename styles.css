@@ -1,0 +1,123 @@
+
+h1 {
+  text-align:center;
+  text-decoration: underline;
+  font-family: serif;
+}
+
+body {
+  text-align:center;
+  align-content: center;
+}
+
+#jokeBody {
+  background-color:#FFE;
+}
+
+
+#forecast_grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-gap: 5px;
+  font-family: sans-serif;
+}
+
+#weatherForecast {
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+#searchSubmit, #randomSubmit, #searchInput {
+  margin-top:10px;
+}
+
+#jokeForm {
+  border: 1px;
+  border-style:solid;
+  width: 300px;
+  margin: auto;
+  padding:15px;
+  background-color:#DDD;
+}
+
+#weatherResults {
+  width: 350px;
+  margin: auto;
+  font-family: sans-serif;
+}
+
+#result_container {
+  text-decoration: none;
+  text-align: left;
+  width: 60%;
+  margin:auto;
+  padding-left, padding-right:20px;
+  border:1px;
+  padding-bottom:60px;
+}
+.details {
+  margin-top:1px;
+  padding-top:4px;
+}
+.title {
+  margin:0px;
+}
+.result {
+  display:inline;
+  padding-bottom: 30px;
+  /* text-decoration: none; */
+}
+
+.searchResults {
+  margin-top, margin-bottom: 20px;
+}
+
+.bar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+.elem {
+    float: left;
+}
+
+.nav {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+#footer {
+  list-style-type: none;
+  height: 50px;
+  width: 100%;
+  bottom:0;
+  position: absolute;
+  overflow: hidden;
+  background-color: #333;
+  text-align: center;
+}
+
+p.footer, a.footer{
+  padding-bottom: 15px;
+  color: white;
+}
+
+#content {
+  min-height: 100%;
+  position: relative;
+}
+#contactbody {
+}
+
+html {
+  height:100%;
+}
+body {
+  height: 100%;
+}
